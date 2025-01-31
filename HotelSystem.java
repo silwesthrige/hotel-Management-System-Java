@@ -135,9 +135,9 @@ public class HotelSystem {
 
                     Room room;
                     if (roomType == 1) {
-                        room = new SingleRoom("Single Room", 2500.0);
+                        room = new SingleRoom("Single Room", 3000.0);
                     } else if (roomType == 2) {
-                        room = new DoubleRoom("Double Room", 3500.0);
+                        room = new DoubleRoom("Double Room", 4000.0);
                     } else {
                         System.out.println("Invalid Room Type! Returning to Main Menu.\n");
                         break;
