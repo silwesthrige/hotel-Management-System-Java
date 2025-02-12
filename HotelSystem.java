@@ -110,7 +110,7 @@ public class HotelSystem {
             System.out.println("02. Book a Room");
             System.out.println("03. Show Booked Room List");
             System.out.println("04. Cancel a Booking");
-            System.out.println("05. Exit");
+            System.out.println("05. Exit----");
             System.out.println("-------------");
             int choice = sc.nextInt();
 
@@ -174,6 +174,7 @@ public class HotelSystem {
                 case 5:
                     exit = true;
                     System.out.println("Thank You! Have a great day!");
+                    System.out.println("Love YOU");
                     break;
 
                 default:
